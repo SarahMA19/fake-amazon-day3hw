@@ -1,0 +1,78 @@
+/* Element tags */
+
+body{
+    font-family: spec
+}
+
+/* Class Tags */
+.text-decoration-none{
+    padding-bottom: 30px;
+    margin-left: 50px;
+}
+
+.last-hr{
+    margin-top: 50px;
+    border: solid;
+}
+
+.new-to-amazon{
+    text-align: center;
+}
+
+.new-to-amazon p{
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+    color: lightgray;
+    font-weight: bold;
+}
+
+.new-to-amazon p::before{
+    content: "";
+    width: 170px;
+    height: 2px;
+    background-color: darkgray;
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -170px;
+}
+.new-to-amazon p::after{
+    content: "";
+    width: 170px;
+    height: 2px;
+    background-color: darkgray;
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -170px;
+}
+
+.account-button{
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+/* ID tags */
+#email{
+    font-size: small;
+ }
+ 
+#conditions{
+    font-size: xx-small;
+}
+
+#copy{
+    font-size: x-small;
+  
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    
+}
+
+
